@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JBK-LBS.iml" filepath="$PROJECT_DIR$/JBK-LBS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LbS/LbS.iml" filepath="$PROJECT_DIR$/LbS/LbS.iml" />
+    </modules>
+  </component>
+</project>
