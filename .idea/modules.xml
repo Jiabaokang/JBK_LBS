@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JBK-LBS.iml" filepath="$PROJECT_DIR$/JBK-LBS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LBS/LbS.iml" filepath="$PROJECT_DIR$/LBS/LbS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LBS/LBS.iml" filepath="$PROJECT_DIR$/LBS/LBS.iml" />
     </modules>
   </component>
 </project>
