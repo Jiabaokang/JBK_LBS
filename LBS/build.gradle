@@ -13,6 +13,7 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -25,11 +26,12 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    //compile files('compile-libs/androidannotations-3.2.jar')
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:design:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    apt "org.androidannotations:androidannotations:$AAVersion"
-    //compile files('compile-libs/androidannotations-3.2.jar')
+    compile 'com.android.support:support-vector-drawable:25.3.1'
 }
 
 apt {
